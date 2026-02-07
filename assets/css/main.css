@@ -7,6 +7,8 @@
 .header{
     display: flex;
     gap: 232.5px;
+    padding: 21.84px 0;
+    margin: 0 165px;
 }
 
 
@@ -19,4 +21,22 @@
     display: flex;
     list-style-type: none;
     gap: 24px;
+}
+.collection_section{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin: 0 165px;
+}
+.collection{
+    text-align: center;
+    width: calc( (100% - 90px) / 4 );
+}
+img{
+    width: 100%;
+}
+h2{
+    margin-top: 23px;
 }
